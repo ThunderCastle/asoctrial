@@ -1,54 +1,35 @@
+font-family: 'Cabin', sans-serif;
+font-family: 'Rock Salt', cursive;
 * {box-sizing: border-box;}
 
 body {
     margin: 0;
 }
-
-header {
-    display: flex;
-    background-color: #801638;
-    height: 75px;
+.navBar{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .logo{
-    
+  height: 60px;
+  width: auto;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 25px;
 }
-.siteName {
-    font-family: 'Rock Salt', cursive;
-    font-size: 30px;
-    padding-left: 40px;
-    position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+.siteName{
+  font-family: 'Rock Salt', cursive;
+  font-size: 40px;
 }
-
-.toolbar {
-    display: inline-flex;
-    list-style-type: none;
-    font-family: 'Cabin', sans-serif;
-    margin-left: 30px;
-    margin: auto;
-
-}
-.navItem{
-  padding: 25px;
-}
-.signIn{
-
-}
-.signup{
-  height: 30px;
-  width: 100px;
-  background-color: #933543;
-  border: 2px solid black;
-  border-radius: 5px;
+.navBarLink{
+  display: inline-flex;
   font-family: 'Cabin', sans-serif;
-
-  font-size: 17px;
-  margin-top: 23px;
-  margin-right: 40px;
+  font-size: 20px;
 }
-.search {
-  background-color: #933543;
+.search{
+  font-family: 'Cabin', sans-serif;
   border: 2px solid black;
   border-radius: 5px;
   margin-top: 23px;
@@ -59,12 +40,25 @@ header {
   text-align: center;
   margin-right: 35px;
   height: 30px;
-  padding: 2px 6px 3px;
+
+}
+.signIn{
+
+}
+.signUp{
+  height: 30px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-family: 'Cabin', sans-serif;
+  font-size: 17px;
+  margin-top: 23px;
+  margin-right: 40px;
 }
 
 
     /*Media Queries*/
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1100px){
 
 }
 @media screen and (max-width: 500px){
