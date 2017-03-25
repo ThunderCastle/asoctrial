@@ -1,0 +1,72 @@
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: #801638;
+    height: 75px;
+}
+.logo{
+    
+}
+.siteName {
+    font-family: 'Rock Salt', cursive;
+    font-size: 30px;
+    padding-left: 40px;
+    position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.toolbar {
+    display: inline-flex;
+    list-style-type: none;
+    font-family: 'Cabin', sans-serif;
+    margin-left: 30px;
+    margin: auto;
+
+}
+.navItem{
+  padding: 25px;
+}
+.signIn{
+
+}
+.signup{
+  height: 30px;
+  width: 100px;
+  background-color: #933543;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-family: 'Cabin', sans-serif;
+
+  font-size: 17px;
+  margin-top: 23px;
+  margin-right: 40px;
+}
+.search {
+  background-color: #933543;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 23px;
+  margin-left: 50px;
+  font-family: 'Cabin', sans-serif;
+  font-size: 17px;
+  width: 300px;
+  text-align: center;
+  margin-right: 35px;
+  height: 30px;
+  padding: 2px 6px 3px;
+}
+
+
+    /*Media Queries*/
+@media screen and (max-width: 1000px){
+
+}
+@media screen and (max-width: 500px){
+
+}
