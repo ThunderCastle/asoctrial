@@ -2,15 +2,15 @@
   "name": "asoctrial",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ThunderCastle/asoctrial.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/ThunderCastle/asoctrial#readme",
   "dependencies": {
-    "body-parser": "^1.17.1",
-    "express": "^4.15.2",
-    "knex": "^0.12.9",
-    "sqlite3": "^3.1.8"
+    "angular": "^1.6.2",
+    "angular-ui-router": "^0.4.2",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
   }
 }
